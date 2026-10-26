@@ -68,26 +68,26 @@ default_top_img: /img/jide.jpg
 # The banner image of index page
 index_img: /img/jide.jpg
 # The banner image of archive page
-archive_img:
+archive_img: /img/jide.jpg
 
 # Note: tag page, not tags page
-tag_img:
+tag_img: /img/jide.jpg
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
 #  - tag name: xxxxx
-tag_per_img:
+tag_per_img: /img/jide.jpg
 
 # Note: category page, not categories page
-category_img:
+category_img: /img/jide.jpg
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
 #  - category name: xxxxx
-category_per_img:
+category_per_img: /img/jide.jpg
 
 # The background image of footer
-footer_img: false
+footer_img: true
 
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
@@ -161,7 +161,7 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - https://api.aa1.cn/doc/yiyan.html
   # 3 - jinrishici.com
-  source: false
+  source: true
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
     - 'Ladies and Gentlemen, it's show time!'
