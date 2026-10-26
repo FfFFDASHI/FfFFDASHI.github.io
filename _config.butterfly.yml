@@ -9,3 +9,14 @@ subtitle:
   sub:
     - "Ladies and Gentlemen, it's show time!"
     - '我是个魔术师，怎么可能让观众失望呢'
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+
+# 点击页面冒爱心
+click_heart:
+  enable: true
+  mobile: false
+
+# 网站全局背景图（基德）
+background: /img/jide.jpg
