@@ -57,7 +57,7 @@ favicon: /img/favicon.png
 
 avatar:
   img: https://img1.baidu.com/it/u=3187403190,2165678496&fm=253&app=138&f=JPEG?w=800&h=1350
-  effect: false
+  effect: true
 
 # Disable all banner images
 disable_top_img: false
