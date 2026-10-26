@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: FDASHI's blog
+subtitle: 'welcome to my blog'
+description: 'here is to record my daily thoughts and short articals'
 keywords:
-author: John Doe
+author: 
 language: en
 timezone: ''
 
