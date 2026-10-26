@@ -66,8 +66,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img: https://img1.baidu.com/it/u=3187403190,2165678496&fm=253&app=138&f=JPEG?w=800&h=1350
-
+index_img: /images/jide.jpg
 # The banner image of archive page
 archive_img:
 
