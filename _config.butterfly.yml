@@ -2,3 +2,10 @@ index_img: /img/jide.jpg
 default_top_img: /img/jide.jpg
 avatar:
   img: /img/jide.jpg
+subtitle:
+  enable: true
+  effect: true
+  source: 1
+  sub:
+    - "Ladies and Gentlemen, it's show time!"
+    - '我是个魔术师，怎么可能让观众失望呢'
