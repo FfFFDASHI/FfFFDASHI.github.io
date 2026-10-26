@@ -66,7 +66,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: https://img.picui.cn/free/2024/07/20/669b6e64b9c1b.jpg
 
 # The banner image of archive page
 archive_img:
@@ -149,7 +149,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -165,7 +165,9 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-
+    - 'Ladies and Gentlemen, it's show time!'
+    - '我是个魔术师，怎么可能让观众失望呢'
+    - '我是怪盗基德'
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
 # 2: Cover on the right, info on the left
