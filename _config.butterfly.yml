@@ -13,8 +13,7 @@ menu:
   首页: / || fas fa-home
   归档: /archives/ || fas fa-archive
 
-fireworks:
-  enable: true
+
 
 
 # 网站全局背景图（基德）
