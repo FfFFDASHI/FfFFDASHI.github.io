@@ -13,10 +13,9 @@ menu:
   首页: / || fas fa-home
   归档: /archives/ || fas fa-archive
 
-# 点击页面冒爱心
-click_heart:
+fireworks:
   enable: true
-  mobile: false
+
 
 # 网站全局背景图（基德）
 background: /img/jide.jpg
