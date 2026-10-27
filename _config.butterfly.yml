@@ -69,3 +69,11 @@ inject:
         })();
       </script>
 
+aside:
+  card_announcement:
+    enable: true
+    content: |
+      欢迎来到 <b>FDASHI's blog</b> 🎩<br>
+      这里是怪盗基德的秘密基地<br>
+      <font color="#49b1f5">Ladies and Gentlemen, it's show time!</font>
+
