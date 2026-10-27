@@ -43,18 +43,22 @@ inject:
         (function () {
           if (window.matchMedia && window.matchMedia('(pointer: coarse)').matches) return;
           var marks = ['✦', '♢', '❖', '◆'];
+          var blue = { color: '#49b1f5', glow: '0 0 6px rgba(73,177,245,.9)' };
+          var gold = { color: '#ffc83c', glow: '0 0 6px rgba(255,200,60,.9)' };
           var last = 0;
           document.addEventListener('mousemove', function (e) {
             var now = Date.now();
             if (now - last < 70) return;
             last = now;
+            var overLink = e.target && e.target.closest && e.target.closest('a, button, input');
+            var c = overLink ? gold : blue;
             var s = document.createElement('span');
             s.className = 'kd-trail';
             s.textContent = marks[Math.floor(Math.random() * marks.length)];
             s.style.left = e.clientX + 'px';
             s.style.top = e.clientY + 'px';
-            s.style.color = '#49b1f5';
-            s.style.textShadow = '0 0 6px rgba(73,177,245,.9)';
+            s.style.color = c.color;
+            s.style.textShadow = c.glow;
             s.style.fontSize = (11 + Math.random() * 9) + 'px';
             s.style.setProperty('--dx', (Math.random() * 60 - 30) + 'px');
             s.style.setProperty('--dy', (30 + Math.random() * 50) + 'px');
