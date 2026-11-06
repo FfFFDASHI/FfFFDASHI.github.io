@@ -14,10 +14,6 @@ menu:
   归档: /archives/ || fas fa-archive
   
 
-
-
-
-
 # 网站全局背景图（基德）
 background: /img/jide.jpg
 footer_img: transparent
@@ -80,7 +76,7 @@ aside:
       <font color="#49b1f5">Ladies and Gentlemen, it's show time!</font>
 card_author:
     enable: true
-    description:
+    description: 绝对音感，番茄肉酱，咖喱，乌冬，基德，宅，喵
     button:
       enable: true
       icon: fab fa-github
