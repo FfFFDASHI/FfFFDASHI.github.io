@@ -77,7 +77,7 @@ aside:
       欢迎来到 <b>FDASHI's blog</b> 🎩<br>
       这里是怪盗基德的秘密基地<br>
       <font color="#49b1f5">Ladies and Gentlemen, it's show time!</font>
-card_author:
+  card_author:
     enable: true
     description: 绝对音感，番茄肉酱，咖喱，乌冬，基德，宅，喵
     button:
