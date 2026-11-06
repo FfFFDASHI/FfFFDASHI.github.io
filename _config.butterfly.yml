@@ -68,6 +68,9 @@ inject:
       </script>
 
 aside:
+  position: left    # 侧边栏换到左边（默认 right）
+  mobile: true      # 手机端是否显示侧边栏
+
   card_announcement:
     enable: true
     content: |
