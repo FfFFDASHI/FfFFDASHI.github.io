@@ -70,13 +70,6 @@ inject:
 aside:
   position: left    # 侧边栏换到左边（默认 right）
   mobile: true      # 手机端是否显示侧边栏
-
-  card_announcement:
-    enable: true
-    content: |
-      欢迎来到 <b>FDASHI's blog</b> 🎩<br>
-      这里是怪盗基德的秘密基地<br>
-      <font color="#49b1f5">Ladies and Gentlemen, it's show time!</font>
   card_author:
     enable: true
     description: 绝对音感，番茄肉酱，咖喱，乌冬，基德，宅，喵
@@ -85,3 +78,10 @@ aside:
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/FfFFDASHI
+  card_announcement:
+    enable: true
+    content: |
+      欢迎来到 <b>FDASHI's blog</b> 🎩<br>
+      这里是怪盗基德的秘密基地<br>
+      <font color="#49b1f5">Ladies and Gentlemen, it's show time!</font>
+
